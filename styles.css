@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  scroll-behavior: smooth;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: #f8f8f8;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1000;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.logo {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  background: url('assets/CL Flyer.jpg') no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+  padding-top: 80px;
+  text-align: center;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  font-size: 1em;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background: #ffd700;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}
